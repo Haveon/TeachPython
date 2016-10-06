@@ -1,4 +1,4 @@
-from stack import Stack
+from stack import Stack    # DRY. check the stack solution to see how this works
 
 class Queue:
     def __init__(self):

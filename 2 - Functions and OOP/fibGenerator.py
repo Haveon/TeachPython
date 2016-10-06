@@ -3,7 +3,7 @@ def fibGen():
     yield 1
     a = 1
     b = 1
-    while True:         # Don't calculating numbers!
+    while True:         # Don't stop calculating numbers!
         a, b = b, a+b   # The right side is executed then assigned to the left
         yield b         # yield the next number
 
